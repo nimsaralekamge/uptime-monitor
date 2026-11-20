@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables (NEVER push secrets)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/uptime_db
+DISCORD_WEBHOOK_URL=
